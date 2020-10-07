@@ -1,0 +1,34 @@
+.form-inline {  
+  display: flex;
+  /* flex-flow: row wrap; */
+  align-items: center;
+  margin: 10px auto;
+}
+
+.form-section{
+  margin: 20px auto;
+}
+
+.lname-input{
+  margin-left: 10px;
+}
+
+.form-select{
+  width: 10%;
+}
+
+@media only  screen and (min-width : 320px) and (max-width : 480px) {
+  .locatie {
+    position: relative;
+    text-align: center;
+  }
+  
+  .locatie iframe {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    border: 0;
+  }
+}
+  

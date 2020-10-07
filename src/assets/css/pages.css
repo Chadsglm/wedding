@@ -1,0 +1,91 @@
+.one-p {
+  font-size: 42px;
+  word-spacing: 10px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.color1{
+  color: #BCA573 !important;
+}
+
+.color2{
+  color: floralwhite !important;
+}
+
+.bold {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.three-p{
+  line-height: 1.8;
+}
+
+.five-p{
+  font-size: 62px;
+  word-spacing: 15px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.three-mgn{
+  margin-top: -20px;
+}
+
+.p-no-mrgn{
+  margin: 0%;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #BCA573 !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #BCA573 !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #BCA573 !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #BCA573 !important;
+}
+
+
+@media screen and (max-width: 480px) {
+  .mobile-p{
+    font-size: 18px;
+  }
+
+  .one-p {
+    font-size: 26px;
+    line-height: 1.4;
+  }
+
+  .one-p1 {
+    font-size: 26px;
+    line-height: 1.4;
+  }
+
+  .twone-p{
+    font-size: 21px;
+  }
+
+  .three-p{
+    line-height: 1.3;
+  }
+
+  .three-mobile-p{
+    font-size: 24px;
+    line-height: 1.8;
+  }
+
+  .five-p{
+    font-size: 40px;
+    word-spacing: 0px;
+    line-height: 1.3;
+    margin: 0;
+  }
+
+  
+}
